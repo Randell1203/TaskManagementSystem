@@ -20,14 +20,15 @@ class AppController extends Controller
     public function getJobTitleListByDepartmentId(Request $request){
     	$data = $request->all();
     	$response = $this->jobTitleListByDepartmentId($data['id']);
+
     	return $response;
     }
 
     // Get all users for dropdown list
     public function getUsersListByDeparment(Request $request){
         $data = $request->all();
-        $response = $this->usersListByDeparmentId($data['id']);
-        return $response;    
+        $dataResponse = $this->usersListByDeparmentId($data['id']);
+        return $dataResponse;    
     }
 
     
