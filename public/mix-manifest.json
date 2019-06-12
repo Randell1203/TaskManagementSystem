@@ -1,0 +1,7 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/vueJs/dashboard.js": "/js/vueJs/dashboard.js",
+    "/js/vueJs/tasks.js": "/js/vueJs/tasks.js",
+    "/js/vueJs/users.js": "/js/vueJs/users.js"
+}
